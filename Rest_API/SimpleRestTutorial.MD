@@ -167,14 +167,14 @@ print(username, date_made, num_repos)
 You did it!  You have successfully made an API request and parsed the resulting JSON response.
 
 ## Code
-If you want to see the full code altogether, take a look at Answers/Simple_Request.py
+If you want to see the full code altogether, take a look at /Rest_API/Answers/Simple_Request.py
 
 ## Exercise
 Now that we got one finished, let's programically extract the same fields for a list of git users.
 The usernames of the top 10 Github accounts are listed in the file "GitUsers.txt"
 Use the Github API to find the "login", "created_at", and "public_repos" for all 10 users and export them to a .csv file.
 
-If you get stuck, take a look at Answers/RestExercise.py
+If you get stuck, take a look at /Rest_API/Answers/RestExercise.py
 
 ## Wrapping up
 Each API is different.  Othe API's will differ slightly in how you need to pass the url and what keys are returned in the 
